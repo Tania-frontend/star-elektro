@@ -1,0 +1,46 @@
+footer{
+	margin-top: 90px;
+	padding-top: 30px;
+	border-top: 1px solid $black_fiolet;
+
+	a.tel{
+		font-weight: 500;
+		line-height: 27px;
+	}
+	a.btn-standart{
+		padding: 13px 0;
+		width: 160px;
+		max-width: 100%;
+		font-size: 11px;
+		margin: 15px 0 0 0;
+		background: $blue;
+
+	}
+
+	.menu{
+		a{
+			font-size: 14px;
+			line-height: 27px;
+		}
+	}
+	.category{
+
+		a{
+			font-size: 14px;
+			text-transform: uppercase;
+			line-height: 27px;
+		}
+	}
+	.social{
+		display: flex;
+		justify-content: center;
+
+		img.facebook{
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	}
+
+
+
+}

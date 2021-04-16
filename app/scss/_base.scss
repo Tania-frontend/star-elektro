@@ -50,15 +50,20 @@ input, button{
 	outline: none;
 }
 h2{
-	font-size: 36px;
-	font-weight: 700;
-	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
 	line-height: 49px;
+	color: $black_fiolet;
+	margin-bottom: 20px;	
+text-transform: uppercase;
 }
 h4{
 	color: #00ACEA;
 	font-weight: 700;
 	font-size: 24px;
 }
-
-
+.swiper-wrapper{
+	transform: translate3d(-1140px, 0px, 0px);
+    min-width: 1140px;
+}
