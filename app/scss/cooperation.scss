@@ -1,0 +1,21 @@
+.cooperation{
+    background-image: url(../images/src/background.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 272px;
+    margin: 110px 0 0 0;
+    
+   
+}
+.cooperation__text{
+    font-size: 38px;
+    color: #1A1A18;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 100px;
+
+    @include screen(567){
+        padding-top: 50px;
+        font-size: 30px;
+}
+}

@@ -1,0 +1,29 @@
+.service{
+	width: 100%;
+	max-width: 309px; 
+	margin: 0 auto;
+	position: relative;
+
+}
+.service__button{
+	position: absolute;
+	font-weight: 700 !important;
+	top: calc(100% - 70px);
+	right: 0;
+}
+.service__title{
+	position: absolute;
+	top: 5px;
+	left: 7px
+}
+.service__title_center{
+	position: absolute;
+	top: 20px;
+	left: 7px
+}
+a.service__button{
+	transition: .3s;
+}
+a.service__button:hover{
+	background: #000 !important
+}

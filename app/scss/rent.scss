@@ -1,0 +1,22 @@
+.rent{
+	width: 100%;
+	max-width: 300px; 
+	margin: 0 auto;
+	position: relative;
+
+}
+.rent__button{
+	font-weight: 700 !important;
+	position: absolute;
+	bottom: 9px;
+	right: calc(50% - 140px);
+	transition: .3s;
+}
+a.rent__button:hover{
+	color: #000 !important;
+}
+.rent__title{
+	position: absolute;
+	bottom: 11px;
+	left: 10px
+}
